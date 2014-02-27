@@ -1,0 +1,7 @@
+/broadcom-wl-*.tar.bz2
+
+# fedpkg local build artifacts
+/.build-*.log
+/b43-closedfwwf-*.src.rpm
+/broadcom-wl-*/
+/noarch/
