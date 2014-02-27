@@ -1,0 +1,11 @@
+b43-closedfwwf RPM
+
+This package contains the non-free software needed to use some
+Broadcom wireless NICs not supported by Fedora's b43-openfwwf RPM.
+
+See http://wireless.kernel.org/en/users/Drivers/b43#devicefirmware
+
+The source tarball may not be distributed, so it must be downloaded
+separately:
+
+  http://www.lwfinger.com/b43-firmware/broadcom-wl-5.100.138.tar.bz2

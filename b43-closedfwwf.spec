@@ -9,7 +9,9 @@ Summary:        Broadcom wireless proprietary firmware
 License:        Proprietary
 URL:            http://www.broadcom.com/support/802.11/linux_sta.php
 Source0:        http://www.lwfinger.com/b43-firmware/broadcom-wl-%{version}.tar.bz2
+%if 0%{?old_fw}
 Source1:        http://mirror2.openwrt.org/sources/broadcom-wl-%{pre_32_fw_ver}_mipsel.tar.bz2
+%endif
 BuildArch:      noarch
 
 BuildRequires:  b43-fwcutter
